@@ -1,0 +1,189 @@
+.RHActividad {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: blue;
+	background: #F3E5F5;
+	font-size: 8pt;
+	cursor: pointer;
+	border-style: solid;
+	border-color: coral;
+	border-width: 1px;
+}
+
+.RHLetreroHorasDias {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: black;
+	background: #C5CAE9;
+	font-size: 8pt;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+.RHLetreroHorasDiasSeleccionada {
+	color: black;
+	background: #7986CB;
+	font-size: 8pt;
+	border-color: black;
+	border-style: solid;
+	text-align: center;
+	border-width: 1px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.RHFondo {
+	cursor: pointer;
+	color: black;
+	font-size: 8pt;
+	cursor: pointer;
+	text-align: center;
+	background-color: #BBDEFB;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+.RHboton1 {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #9575CD;
+	background: #E1BEE7;
+	font-size: 8pt;
+	cursor: pointer;
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	display: table-cell;
+	vertical-align: middle;
+	border-radius: 5px;
+}
+
+.RHboton1:hover {
+	cursor: pointer;
+	background: #FFCDD2;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 #9575Cd;
+	cursor: pointer;
+}
+
+.RHboton1:active {
+	cursor: pointer;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 #9575CD;
+	transform: translateY(4px);
+}
+
+.RHbotonPulsado {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #9575CD;
+	background: #4DB6AC;
+	font-size: 8pt;
+	font-weight: bold;
+	cursor: pointer;
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	display: table-cell;
+	vertical-align: middle;
+	border-radius: 5px;
+}
+
+.RHChecada {
+	cursor: pointer;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+	font-size: 8pt;
+	cursor: pointer;
+	background-color: #004D40;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.RHboton2 {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #9575CD;
+	background: #2962FF;
+	color: white;
+	font-size: 10pt;
+	cursor: pointer;
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	display: table-cell;
+	vertical-align: middle;
+	border-radius: 5px;
+}
+
+.RHboton2:hover {
+	cursor: pointer;
+	background: #0091EA;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 #9575Cd;
+	cursor: pointer;
+}
+
+.RHboton2:active {
+	cursor: pointer;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 #9575CD;
+	transform: translateY(4px);
+}
+
+.RHletra20 {
+	color: #5D4037;
+	font-size: 20pt;
+}
+
+.RHletra14 {
+	color: #5D4037;
+	font-size: 14pt;
+}
+
+.RHbordeDoble {
+	border-style: double;
+	border-color: blue;
+	border-radius: 5px;
+}
+
+.RHbordeDoble2 {
+	border-style: double;
+	border-color: red;
+	border-radius: 5px;
+}
+
+.RHGrupo {
+	display: table-cell;
+	vertical-align: middle;
+	color: black;
+	font-size: 7pt;
+	cursor: not-allowed;
+	background-color: #FFCCBC;
+}
+
+.RHlinea0 {
+	cursor: pointer;
+	color: black;
+	font-size: 12pt;
+	background: #C8E6C9;
+	cursor: pointer;
+}
+
+.RHlinea1 {
+	cursor: pointer;
+	color: black;
+	font-size: 12pt;
+	background: #C5CAE9 cursor: pointer;
+}
+
+.RHlinea00 {
+	color: black;
+	font-size: 8pt;
+	background: #C8E6C9;
+}
+
+.RHamarillo {
+	color: black;
+	font-size: 8pt;
+	background: #FFB74D;
+}

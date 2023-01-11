@@ -1,0 +1,311 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #777777;
+    margin: 40px 0px 70px;
+    text-align: center;
+  }
+  
+  .sendButton {
+    display: block;
+    font-size: 16pt;
+  }
+  
+  /** Most GWT widgets already have a style name defined */
+  .gwt-DialogBox {
+    width: 400px;
+  }
+  
+  .dialogVPanel {
+    margin: 5px;
+  }
+  
+  .serverResponseLabelError {
+    color: red;
+  }
+  
+  /** Set ids using widget.getElement().setId("idOfElement") */
+  #closeButton {
+    margin: 15px 6px 6px;
+  }
+  .letraAzul18px {
+      color: Blue;
+      font-size: 18px;
+      font-family: monospace;
+      font-weight: bold;
+  }
+  .letraAzul14px {
+      color: mediumblue;
+      font-size: 12px;
+      font-family: monospace;
+  }
+  .borde1px {
+      border: 1px solid;
+  }
+  .cupoVerde {
+      color: Green;
+      font-size: 18px;
+      font-family: monospace;
+      font-weight: bold;
+  }
+  .cupoRojo {
+      color: Red;
+      font-size: 18px;
+      font-family: monospace;
+      font-weight: bold;
+  }
+  .cupoNaranja {
+      color: orange;
+      font-size: 18px;
+      font-family: monospace;
+      font-weight: bold;
+  }
+  .ratonMano {
+      cursor: pointer;
+  }
+  .letraNegra10px {
+      color: black;
+      font-size: 12px;
+  }
+  .letraNegra14px {
+      color: black;
+      font-size: 12px;
+  }
+  .letraAzul10px {
+      color: mediumblue;
+      font-size: 10px;
+  }
+  .css_btn_class {
+  }
+  .letraRojo20px {
+      color: Red;
+      font-size: 16px;
+      font-family: monospace;
+      font-weight: bold;
+  }
+  .letraAzul16px {
+      color: Blue;
+      font-size: 16px;
+      font-family: monospace;
+      font-weight: bold;
+  }
+  .letraAzul16pxCuadro1px {
+      color: Blue;
+      border: 1px solid;
+      font-size: 16px;
+      font-family: monospace;
+  }
+  .letraVerde20pxCuadro1px {
+      color: Green;
+      font-size: 16px;
+      font-family: monospace;
+      font-weight: bold;
+  }
+  .letraNegra8px {
+      color: Black;
+      font-size: 11px;
+      font-family: monospace;
+      }
+  letraAzul24px {
+      color: cornflowerblue;
+      font-size: 0.5cm;
+      font-family: monospace;
+      font-weight: bold;
+  }
+
+  
+  .libre {
+      background-color: palegreen;
+      cursor: pointer;
+  }
+  .borde1px {
+      border: 1px solid Black;
+  }
+  .grisClaro {
+      background-color: whitesmoke;
+  }
+  .seleccionada {
+      background-color: cornflowerblue;
+      cursor: pointer;
+  }
+  .ocupada {
+      color: white;
+      background-color: firebrick;
+  }
+  .cuadroAmarillo {
+      border: 2px dashed;
+      background-color: lightyellow;
+  }
+  .letra14pxAzul {
+      color: darkblue;
+      font-size: 14px;
+      font-family: serif;
+  }
+  .letra16pxAzul {
+      color: darkblue;
+      font-size: 16px;
+      font-family: serif;
+  }
+  .letraRoja18px {
+      color: Red;
+      font-size: 18px;
+      font-family: serif;
+  }
+  
+  .materiaAprobada {
+      color: white;
+      border: 1px solid;
+      font-size: 10px;
+      font-family: monospace;
+      font-weight: bold;
+      background-color: mediumseagreen;
+  }
+  .materiaRepiteCurso {
+      color: black;
+      font-size: 10px;
+      font-family: monospace;
+      background-color: yellow;
+      font-weight: bold;
+      cursor: pointer;
+      border: 1px solid;
+  }
+  .borde1px {
+      border: 1px solid;
+  }
+  .materiaCursoNormal {
+      color: white;
+      border: 1px solid black;
+      font-size: 10px;
+      font-family: monospace;
+      font-weight: bold;
+      background-color: royalblue;
+      cursor: pointer;
+  }
+  .materiaSeleccionada {
+      color: black;
+      border: 1px solid black;
+      font-size: 10px;
+      font-family: monospace;
+      font-weight: bold;
+      background-color: violet;
+  }
+  .materiaCursoEspecial {
+      color: black;
+      border: 1px solid black;
+      font-size: 10px;
+      font-family: monospace;
+      font-weight: bold;
+      background-color: gold;
+      cursor: pointer;
+  }
+  .materiaExamenEspecial {
+      color: black;
+      border: 1px solid black;
+      font-size: 10px;
+      font-family: monospace;
+      font-weight: bold;
+      background-color: orange;
+  }
+  .materiaEspecialReprobado {
+      color: white;
+      border: 1px solid black;
+      font-size: 10px;
+      font-family: monospace;
+      font-weight: bold;
+      background-color: red;
+  }
+  .materiaNoPermitida {
+      color: black;
+      border: 1px solid black;
+      font-size: 10px;
+      font-family: monospace;
+      font-weight: bold;
+      background-color: Silver;
+  }
+  .fondo0 {
+      background-color: White;
+      font-size: 10px;
+  }
+  .fondo1 {
+      background-color: palegreen;
+      font-size: 10px;
+  }
+  .fondo2 {
+      background-color: lightblue;
+      font-size: 10px;
+  }
+  .fondo3 {
+      background-color: wheat;
+      font-size: 10px;
+  }
+  .fondo4 {
+      background-color: pink;
+      font-size: 10px;
+  }
+  .fondo5 {
+      background-color: lightsteelblue;
+      font-size: 10px;
+  }
+  .fondo6 {
+      background-color: lightgreen;
+      font-size: 10px;
+  }
+  .fondo7 {
+      background-color: pink;
+      font-size: 10px;
+  }
+  .fondo8 {
+      background-color: cornflowerblue;
+      font-size: 10px;
+  }
+  .fondo9 {
+      background-color: peachpuff;
+      font-size: 10px;
+  }
+  .botonAzul {
+      color: black;
+      font-size: 10px;
+      background-color: lightblue;
+      cursor: pointer;
+      border: 1px solid Black;
+  }
+  .fondoRojo {
+      background-color: Red;
+  }
+  .fondoHorarioAlumno {
+      background-color: azure;
+      font-family: serif;
+      font-size: 8px;
+  }
+  .bordeAzul3px {
+      border: 3px solid Navy;
+  }
+  
+  .boton2 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 #9575CD;
+    background:#E1BEE7;
+    font-size:8pt;
+    cursor: pointer;
+    text-align: center;
+    width: 150px;
+    height:30px;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 5px;
+  }
+  .boton2:hover {	
+  
+    background:#FFCDD2;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 #9575Cd;
+    cursor:pointer;
+  }
+  .boton2:active {
+    cursor: pointer;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 #9575CD;
+    transform: translateY(4px);
+    
+  }

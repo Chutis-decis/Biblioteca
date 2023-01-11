@@ -1,0 +1,604 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #777777;
+    margin: 40px 0px 70px;
+    text-align: center;
+  }
+  
+  .sendButton {
+    display: block;
+    font-size: 16pt;
+  }
+  
+  /** Most GWT widgets already have a style name defined */
+  .gwt-DialogBox {
+    width: 400px;
+  }
+  
+  .dialogVPanel {
+    margin: 5px;
+  }
+  
+  .serverResponseLabelError {
+    color: red;
+  }
+  
+  /** Set ids using widget.getElement().setId("idOfElement") */
+  #closeButton {
+    margin: 15px 6px 6px;
+  }
+  
+  .horasDias {
+      color: Navy;
+      margin: 1px;
+      padding-top: 1px;
+      padding-right: 2px;
+      border: 1px solid mediumblue;
+      font-size: 14px;
+      font-family: serif;
+      vertical-align: middle;
+      text-align: center;
+      background-color: whitesmoke;
+  }
+  
+  .aula {
+      color: Black;
+      margin: 1px;
+      padding-top: 1px;
+      padding-right: 2px;
+      border: 1px solid mediumblue;
+      font-size: 12px;
+      font-family: serif;
+      vertical-align: middle;
+      text-align: center;
+      background-color: mediumturquoise;
+  }
+  
+  .aulaElegida {
+      color: Black;
+      margin: 1px;
+      padding-top: 1px;
+      padding-right: 2px;
+      border: 1px solid mediumblue;
+      font-size: 12px;
+      font-family: serif;
+      vertical-align: middle;
+      text-align: center;
+      background-color: dodgerblue;
+  }
+  
+  .horaLibre {
+      color: Black;
+      margin: 1px;
+      padding-top: 1px;
+      padding-right: 2px;
+      border: 1px solid mediumblue;
+      font-size: 12px;
+      font-family: serif;
+      vertical-align: middle;
+      text-align: center;
+      background-color: mintcream;
+  }
+  
+  .horaBloqueada {
+      color: White;
+      margin: 1px;
+      padding-top: 1px;
+      padding-right: 2px;
+      border: 1px solid mediumblue;
+      font-size: 12px;
+      font-family: serif;
+      vertical-align: middle;
+      text-align: center;
+      background-color: darkred;
+  }
+  
+  .horaGrupo {
+      color: White;
+      margin: 1px;
+      padding-top: 1px;
+      padding-right: 2px;
+      border: 1px solid mediumblue;
+      font-size: 12px;
+      font-family: serif;
+      vertical-align: middle;
+      text-align: center;
+      background-color: mediumblue;
+  }
+  
+  .horaGrupoBloqueada {
+      color: White;
+      margin: 1px;
+      padding-top: 1px;
+      padding-right: 2px;
+      border: 1px solid mediumblue;
+      font-size: 12px;
+      font-family: serif;
+      vertical-align: middle;
+      text-align: center;
+      background-color: mediumblue;
+  }
+  
+  .calificacionAprobatoria {
+    font-family: 'arial black';
+    color: #1117BF !important;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #7CACDE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 1px 1px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    border: 2px solid #3866A3;
+    background: #63B8EE;
+    background: linear-gradient(top,  #ABEEEC,  #4E9BE6);
+    background: -ms-linear-gradient(top,  #ABEEEC,  #4E9BE6);
+    background: -webkit-gradient(linear, left top, left bottom, from(#ABEEEC), to(#4E9BE6));
+    background: -moz-linear-gradient(top,  #ABEEEC,  #4E9BE6);
+    text-align: center;
+  }
+  .calificacionAprobatoria:hover {
+    color: #14396A !important;
+    background: #F77D36;
+    background: linear-gradient(top,  #CF5315,  #EE2711);
+    background: -ms-linear-gradient(top,  #CF5315,  #EE2711);
+    background: -webkit-gradient(linear, left top, left bottom, from(#CF5315), to(#EE2711));
+    background: -moz-linear-gradient(top,  #CF5315,  #EE2711);
+  }
+  
+  .calificacionNA {
+    font-family: 'arial black';
+    color: #FC052E !important;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #7CACDE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 1px 1px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    border: 2px solid #3866A3;
+    background: #63B8EE;
+    background: linear-gradient(top,  #ABEEEC,  #4E9BE6);
+    background: -ms-linear-gradient(top,  #ABEEEC,  #4E9BE6);
+    background: -webkit-gradient(linear, left top, left bottom, from(#ABEEEC), to(#4E9BE6));
+    background: -moz-linear-gradient(top,  #ABEEEC,  #4E9BE6);
+    text-align: center;
+  }
+  .calificacionNA:hover {
+    color: #FCCC5D !important;
+    background: #F77D36;
+    background: linear-gradient(top,  #CF5315,  #EE2711);
+    background: -ms-linear-gradient(top,  #CF5315,  #EE2711);
+    background: -webkit-gradient(linear, left top, left bottom, from(#CF5315), to(#EE2711));
+    background: -moz-linear-gradient(top,  #CF5315,  #EE2711);
+  }
+  
+  .calificacionNP {
+    font-family: 'arial black';
+    color: #FC3B14 !important;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #7CACDE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 1px 1px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    border: 2px solid #3866A3;
+    background: #63B8EE;
+    background: linear-gradient(top,  #ABEEEC,  #4E9BE6);
+    background: -ms-linear-gradient(top,  #ABEEEC,  #4E9BE6);
+    background: -webkit-gradient(linear, left top, left bottom, from(#ABEEEC), to(#4E9BE6));
+    background: -moz-linear-gradient(top,  #ABEEEC,  #4E9BE6);
+    text-align: center;
+  }
+  .calificacionNP:hover {
+    color: #FCCC5D !important;
+    background: #F77D36;
+    background: linear-gradient(top,  #CF5315,  #EE2711);
+    background: -ms-linear-gradient(top,  #CF5315,  #EE2711);
+    background: -webkit-gradient(linear, left top, left bottom, from(#CF5315), to(#EE2711));
+    background: -moz-linear-gradient(top,  #CF5315,  #EE2711);
+  }
+  
+  .horarioLimpio {
+      font-size: 10px;
+      font-family: serif;
+      text-align: center;
+      background-color: powderblue;
+  }
+  
+  .horarioOcupado {
+      font-size: 10px;
+      font-family: serif;
+      text-align: center;
+      background-color: mediumaquamarine;
+      cursor: pointer;
+  }
+  
+  .horarioOcupado2 {
+      font-size: 10px;
+      font-family: serif;
+      text-align: center;
+    background-color: plum;
+    cursor: pointer;
+  }
+  
+  .letreroOpcion {
+    font-family: helvetica;
+    color: #FFFFFF !important;
+    text-align: center;
+    font-size: 14px;
+    text-shadow: 1px 1px 0px #7CACDE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 1px 18px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid #3866A3;
+    background: #F8BBD0;
+    background: linear-gradient(top,  #9BC2EE,  #468CCF);
+    background: -ms-linear-gradient(top,  #9BC2EE,  #468CCF);
+    background: -webkit-gradient(linear, left top, left bottom, from(#43A047), to(#76FF03));
+    background: -moz-linear-gradient(top,  #9BC2EE,  #468CCF);
+  }
+  .letreroOpcion:hover {
+    color: #14396A !important;
+    background: #D50000;
+    background: linear-gradient(top,  #468CCF,  #63B8EE);
+    background: -ms-linear-gradient(top,  #468CCF,  #63B8EE);
+    background: -webkit-gradient(linear, left top, left bottom, from(#43A047), to(#4CAF50));
+    background: -moz-linear-gradient(top,  #468CCF,  #63B8EE);
+  }
+  
+  .dato {
+    color: blue;
+    margin: 0px;
+    padding-top: 1px;
+    padding-right: 1px; 
+    font-size: 15px;  
+    font-family: arial;
+    vertical-align: left;
+    text-align: left;
+  
+  }
+  
+  .datoCourier {
+    color: blue;
+    margin: 0px;
+    padding-top: 1px;
+    padding-right: 1px; 
+    font-size: 15px;  
+    font-family: Courier;
+    vertical-align: left;
+    text-align: left;
+  }
+  .renglones2 {
+    color: blue;
+    margin: 0px;
+    padding-top: 1px;
+    padding-right: 1px; 
+    font-size: 15px;  
+    font-family: Courier;
+    vertical-align: right;
+    text-align: right;     
+    background-color: black;
+  }
+  .renglones {
+    color: blue;
+    margin: 0px;
+    padding-top: 1px;
+    padding-right: 1px; 
+    font-size: 15px;  
+    font-family: Courier;
+    vertical-align: right;
+    text-align: right;     
+    background-color: white;
+  }
+  .color {
+    color : blue;
+    background-color: transparent;
+  }
+  
+  .letra10 {
+    font-size: 10px;
+  }
+  
+  .letra11 {
+    font-size: 11px;
+  }
+  
+  .letra12 {
+    font-size: 12px;
+  }
+  
+  .letra13 {
+    font-size: 13px;
+  }
+  
+  .letra14 {
+    font-size: 14px;
+  }
+  
+  .letra15 {
+    font-size: 15px;
+  }
+  
+  .letra16 {	
+    font-size: 16px;
+  }
+  
+  .letra17 {  
+    font-size: 17px;  
+  }
+  
+  .letra18 {	
+    font-size: 18px;
+  }
+  
+  .letra19 {
+    font-size: 19px;
+  }
+  
+  .letra20 {
+    font-size: 20px;
+  }
+  
+  .letra21 {
+    font-size: 21px;
+  }
+  
+  .letra22 {
+    font-size: 22px;
+  }
+  
+  .letra23 {
+    font-size: 23px;
+  }
+  
+  .letra24 {
+    font-size: 24px; 
+  }
+  
+  .letra25 {
+    font-size: 25px; 
+  }
+  
+  .cuadro {
+      border: 2px dashed;
+      background-color: transparent;
+  }
+  
+  .estilo {
+    font-family: courier;
+    font-weight: bold;
+    color: WHITE;
+    font-size: 24px;
+    text-shadow: 2px 1px 0px #5260DE;
+    box-shadow: 1px 1px 1px #B6F9C3;
+    padding: 3px 5px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid #3866A3;
+    background: #B3EEC0;
+    background: linear-gradient(top,  #63B8EE,  #8FCFCD);
+    background: -ms-linear-gradient(top,  #63B8EE,  #8FCFCD);
+    background: -webkit-gradient(linear, left top, left bottom, from(#63B8EE), to(#8FCFCD));
+    background: -moz-linear-gradient(top,  #63B8EE,  #8FCFCD);
+  }
+  .estilo:hover {
+    color: WHITE !important;
+    background: #75CF68;
+    background: linear-gradient(top,  #468CCF,  #86EE7E);
+    background: -ms-linear-gradient(top,  #468CCF,  #86EE7E);
+    background: -webkit-gradient(linear, left top, left bottom, from(#468CCF), to(#86EE7E));
+    background: -moz-linear-gradient(top,  #468CCF,  #86EE7E);
+  }
+  .rojo {
+    font-family: arial;
+    font-weight: bold;
+    font-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    border: 2px solid #3866A3;
+    background: red;
+  }
+  .rojo:hover {
+    color: #FFFAFB !important;
+    background: #3D68F5;
+    cursor: pointer;
+  }
+  .verde {
+    font-family: arial;
+    font-weight: bold;
+    font-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    border: 2px solid #3866A3;
+    background: green;
+  }
+  .verde:hover {
+    color: #FFFAFB !important;
+    background: #3D68F5;
+    cursor: pointer;
+  }
+  .azul {
+    font-family: arial;
+    font-weight: bold;
+    font-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    border: 2px solid #3866A3;
+    background: blue;
+  }
+  .azul:hover {
+    color: #FFFAFB !important;
+    background: #3D68F5;
+    cursor: pointer;
+  }
+  
+  .linea0 {
+    font-family: arial;
+    font-weight: bold;
+    font-align: center;
+    color: cyan;
+    font-size: 12px;
+    padding: 10px 25px;
+    border: 2px solid #3866A3;
+    background: blue;
+  }
+  
+  .linea1 {
+    font-family: arial;
+    font-weight: bold;
+    font-align: center;
+    color: whites;
+    font-size: 12px;
+    padding: 10px 25px;
+    border: 2px solid #3866A3;
+    background: #0D47A1;
+  }
+  
+  .linea00 {
+       font-family: arial;
+    font-weight: bold;
+    font-align: center;
+    color: red;
+    font-size: 10px;
+    padding: 10px 25px;
+    border: 2px solid #3866A3;
+    background: #00838F;
+  }
+  
+  .amarillo {
+       font-family: arial;
+    font-weight: bold;
+    font-align: center;
+    color: yellow;
+    font-size: 10px;
+    padding: 10px 25px;
+    border: 2px solid #3866A3;
+    background: blue;
+  }
+  
+  .fondo {
+       background-image: url("images/logoTecNM.png");
+    background-position: right bottom, left top;
+    background-repeat: repeat;
+    padding: 15px;
+  }
+  .cuadroLogin {
+      margin: 3px;
+      padding: 2px;
+      border: 3px solid Navy;
+      max-width: 400px;
+      min-width: 300px;
+      max-height: 400px;
+      min-height: 450px;
+      width:device-width;
+      background : white;
+  }
+  
+  .letrero {
+      text-align: right;
+      font-family: sans-serif;
+      font-style: normal;
+      font-size: 18px;
+  }
+  
+  .campo {
+      text-align: left;
+      font-family: sans-serif;
+      font-style: normal;
+      font-size: 24px;
+      font-weight: bold;
+  }
+  
+  .fondo {
+       background-image: url("images/logoTecNM.png");
+    background-position: right bottom, left top;
+    background-repeat: repeat;
+    padding: 15px;
+  }
+  
+  .candado {
+      cursor : pointer;
+      font-size: 18px;
+  }
+  
+  .ingresar {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    vertical-align: middle;
+    border: 2px solid #008CBA;
+  }
+  .ingresar:hover {
+    background-color: #B2DFDB;
+  }
+  
+  .text-area {
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    cursor: text;
+    background-color: #F5EEF8 ; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  .text-area:hover {
+    background-color: white;
+  }
+  .cuadro-azul {
+      margin: 3px;
+      padding: 2px;
+      border: 2px solid Navy;
+      background : #F4D03F;
+  }
+  .campo-texto {
+       text-align: left;
+    font-size: 12px;
+  }
+  
+  .letrerox {
+      color: darkblue;
+      font-size: 18px;
+      font-family: Tahoma;
+      font-style: normal;
+  }
+  .letrerox2 {
+      color: darkblue;
+      border: 1px solid;
+      font-size: 22px;
+      font-family: Tahoma;
+      font-style: normal;
+      vertical-align: middle;
+      text-align: center;
+      background-color: paleturquoise;
+  }
+  .borde1x {
+      border-top: 1px solid dodgerblue;
+      border-right: 2px solid dodgerblue;
+      border-bottom: 2px solid dodgerblue;
+      border-left: 1px solid dodgerblue;
+  }
+  .recuperar-correo {
+      color: darkblue;
+      font-size: 12px;
+      cursor: pointer;
+  }
